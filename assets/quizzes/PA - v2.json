@@ -1,0 +1,671 @@
+[
+  {
+    "text": "Cautand liniar elementul 2 in tablou: [0, 0, 0, 5, 2, 2] elementul 2 gasit va fi cel de pe pozitia:",
+    "answers": [
+      "5",
+      "4",
+      "ambele raspunsuri sunt corecte"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "fie date tablourile de mai jos: 1: [5, 4, 3] 2: [7, 6, 5, 2, 1] 3: [1, 2, 3, 4] precizati variantele/varianta ce poate fi folosita ca si tablou de incrementi pentru ShellSort",
+    "answers": [
+      "1 si 2",
+      "2",
+      "toate"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "in cazul aplicarii cautarii prin interpolare, tabloul poate fi doar:",
+    "answers": [
+      "orice tip de tablou",
+      "ordonat",
+      "neordonat"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "cate perechi de traversari (dr->st, st->dr) sunt necesare pentru a sorta prin amestecare tabloul de mai jos: [97, 40, 44, 21, 37, 92, 12]",
+    "answers": [
+      "3",
+      "2",
+      "6"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "fie secventa: ```c typedef struct { char nume[20], float medie; } structura;\nstructura v; strcpy(v.nume, 'POP'); v.medie = 9.5; ``` dupa executarea secventei, ce va fi stocat in memoriea asociata variabilei `v`?",
+    "answers": [
+      "nici un raaspuns nu e corect",
+      "9.5",
+      "POP si 9.5"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "secventa de mai jos defineste: ```c typedef struct { char nume[20]; float nota; } student;\ntypedef student tab[20] ```",
+    "answers": [
+      "implementeaza un tip de data abstract articol",
+      "implementeaza un tip de data abstract multime",
+      "ambele variante sunt corecte"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "sortand prin interschimbare, dupa 3 traversari tabloul [35, 36, 7, 0, 1, 7] devine:",
+    "answers": [
+      "[0, 1, 7, 7, 35, 36]",
+      "[0, 1, 35, 36, 7, 7]",
+      "[0, 1, 7, 35, 36, 7]"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "un tip de data abstract articol implementat in C este:",
+    "answers": [
+      "structura",
+      "o uniune",
+      "nici un raspuns nu este corect"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "fie secventa: ```c typedef enum{ galben, rosu, albastru } cul;\ncul = 1; printf(\"%d\", cul); ``` precizati ce se va afisa.",
+    "answers": [
+      "1",
+      "secventa de cod e incorecta",
+      "rosu"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "sortand prin selectie, dupa 3 traversari tabloul [3, 3, 5, 1, 0] devine:",
+    "answers": [
+      "[0, 1, 3, 3, 5]",
+      "[0, 1, 5, 3, 3]",
+      "[0, 1, 3, 5, 3]"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "fie tabloul [1, 2, 1, 2, 3, 3] in cazul aplicarii cautarii binare, elementul cautat fiind 3, algoritmul gaseste:",
+    "answers": [
+      "3 de pe pozitia 5",
+      "3 de pe pozitia 4",
+      "nici un raspuns nu e corect"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "apicand ShellSort aspura tabloului [42, 69, 97, 39, 28, 74, 43], tabloul de incrementi folosit fiind [5, 3, 1], precizati ce va contine tabloul dupa traversarea cu increment 5",
+    "answers": [
+      "[42, 43, 97, 39, 28, 74, 69]",
+      "[42, 43, 39, 97, 28, 74, 69]",
+      "[42, 43, 39, 28, 97, 74, 69]"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "precizati cele doua partitii in cazul sortarii prin partitionare (pivot mijlocul tabloului) dupa prima traversare a tabloului de mai jos: [7, 16, 45, 0, 7, 41, 28]",
+    "answers": [
+      "[0], [16, 45, 7, 7, 41, 28]",
+      "[0, 7, 7], [16, 45, 41, 28]",
+      "[0, 16], [45, 7, 7, 41, 28]"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "in cazul metodei de sortare radix interschimbare aplicata tabloului de mai jos: [5, 2, 2, 4, 18, 9, 3] precizati care este prima partitionare ce apare.",
+    "answers": [
+      "[5, 2, 2, 4, 3, 9], [18]",
+      "[5, 2, 2, 4], [3, 9, 18]",
+      "[5, 2, 2, 4, 3], [9, 18]"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "fie secventa: ```c typedef enum { sir_caracter, intreg } tip; typedef union {int nr; char sir[10]} uniune;\nuniune v; strcpy(v.sir, \"popescu\"); v.nr = 43; ``` dupa executarea secventei ce va fi stocat in memoria asociata variabilei `v`?",
+    "answers": [
+      "popescu",
+      "43",
+      "popescu, 43"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "care sunt conditiile de iesire din bucla while, in cazul cautarii liniare?",
+    "answers": [
+      "i < N && a[i] != x",
+      "i < N",
+      "i >= N || a[i] == x"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "fie tabloul de mai jos: [24, 40, 69, 39, 9, 93]. prin aducerea tabloului la forma de ansamblu invers se obtine:",
+    "answers": [
+      "[93, 69, 40, 39, 9, 24]",
+      "[93, 40, 69, 39, 9, 24]",
+      "[93, 40, 39, 69, 9, 24]"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "sortand prin insertie, dupa 5 iteratii tabloul [35, 36, 7, 0, 1, 7] devine:",
+    "answers": [
+      "[0, 1, 7, 35, 36, 7]",
+      "[0, 1, 7, 35, 7, 36]",
+      "[0, 1, 7, 7, 35, 36]"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "fie secventa de mai jos: ```c typedef int tablou[20]; ``` precizati ce TDA implementat in C corespunde TD tablou.",
+    "answers": [
+      "TDA multime",
+      "TDA articol cu variante",
+      "TDA articol"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "un tip de data abstract articol implementat in C este:",
+    "answers": [
+      "nici un raspuns nu este corect",
+      "o uniune",
+      "o structura"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "fie secventa: ```c typedef struct { int lungime_cuv; char cuv[20]; } cuvant;\ntypdef union { cuvant c; int frecventa; } uniune;\nuniune var; var.c.lungime_cuv = 7; strcpy(var.c.cuv, \"algoritmi\"); var.frecventa = 8; ``` dupa executarea secventei ce va fi sstocat in memoriea asociata variabilei `v`?",
+    "answers": [
+      "8",
+      "7 si algoritmi",
+      "algoritmi"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "```c typdef enum {inserite, selectie, interschimbare, amestecare} tip;\nint i; tip t;\nfor (i = 0; i < 4; i = i + 2) { t = i; switch(t) { case insertie: printf(\"inserite\"); break; case selectie: printf(\"selectie\"); break; case interschimbare: printf(\"interschimbare\"); break; case amestecare: printf(\"amestecare\"); break; } } ```",
+    "answers": [
+      "insertie, selectie",
+      "insertie, selectie, interschimbare, amestecare",
+      "insertie, interschimbare"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "fie secventa: ```c typedef struct { int nr; float medie; } structura;\nstructura v; v.nr = 12; v.medie = 9.5; ``` dupa executarea secventei ce va fi stocat in memoria asociata variabilei `v`?",
+    "answers": [
+      "12",
+      "12 si 9.5",
+      "9.5"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "fie tabloul [11, 23, 7, 8, 9, 1, 9], precizati numarul de iteratii executat in cazul in care se cauta elementul 24.",
+    "answers": [
+      "7",
+      "5",
+      "6"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "fie tabloul [4, 2, 8, 1] sa se precizeze cate comparatii se efectueaza in cazul cautarii elementului 25 aplicand tehnica fanionului.",
+    "answers": [
+      "5",
+      "4",
+      "6"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "in tabloul [1, 1, 1, 2, 5, 5], elementul 5 este cautat folosind doua metode de cautare: cautarea binara si cautarea binara performanta. precizati pe ce pozitie va fi gasit elementul 5 in cele 2 cazuri.",
+    "answers": [
+      "cautarea binara: 4, binar performant: 4",
+      "cautarea binara: 5, binar performant: 5",
+      "cautarea binara: 4, binar performant: 5"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "care este conditia de iesire din bucla while in cazul cautarii binare performante:",
+    "answers": [
+      "s >= d",
+      "s <= d && a[m] != x",
+      "s < d"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "sortand prin insertie, dupa 2 iteratii tabloul [86, 88, 10, 76, 75, 8] devine:",
+    "answers": [
+      "[10, 86, 88, 76, 75, 8]",
+      "[10, 75, 76, 86, 88, 8]",
+      "[8, 10, 75, 76, 86, 88]"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "sortand prin interschimbare tabloul [71, 23, 78, 52, 92, 95], precizati dupa a cata iteratie tabloul este sortat.",
+    "answers": [
+      "a cincea",
+      "a doua",
+      "prima"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "sortand prin selectie, dupa 3 traversari tabloul [8, 69, 97, 45, 64, 83] devine:",
+    "answers": [
+      "nici o varianta nu este corecta",
+      "[8, 45, 64, 69, 97, 83]",
+      "[8, 45, 64, 69, 83, 97]"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "cate perechi traversari (dr->st, st->dr) sunt necesare pentru a sorta prin amestecare tabloul de mai jos: [55, 23, 61, 77, 86, 91].",
+    "answers": [
+      "3",
+      "2",
+      "1"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "aplicand ShellSort asupra tabloului [75, 42, 14, 57, 33, 37, 36, 91, 10, 33], tabloul de incrementi folositi fiind {7, 3, 1}, precizati ce va contine tabloul dupa traversarea cu incrementul 7.",
+    "answers": [
+      "[10, 14, 33, 33, 36, 37, 42, 57, 75, 91]",
+      "[14, 33, 36, 37, 42, 57, 75, 91, 10, 33]",
+      "nici un raspuns nu este corect"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "ce metoda directa de sortare sta la baza ShellSort?",
+    "answers": [
+      "insertie",
+      "interschimbare",
+      "selectie"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "fie tabloul de mai jos: [1, 19, 97, 5, 99, 15]. prin aducerea tabloului la forma de ansamblu invers se obtine:",
+    "answers": [
+      "nici un raspuns nu este corect",
+      "[99, 19, 97, 5, 1, 15]",
+      "[99, 1, 97, 5, 19, 15]"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "precizati cele 2 partitii in cazul sortarii prin partitionare (pivot mijlocul tabloului) dupa prima traversare a tabloului de mai: [41, 50, 59, 39, 46, 16, 44].",
+    "answers": [
+      "[16, 39, 50], [59, 46, 41, 44]",
+      "[16, 39], [59, 50, 46, 41, 44]",
+      "[16], [39, 59, 50, 46, 41, 44]"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "in cazul metodei radix interschimbare aplicata tabloului de mai jos, precizati care este prima partitionare ce apare: [1, 4, 0, 3, 7, 8, 1].",
+    "answers": [
+      "[1, 0, 3, 1], [4, 7, 8]",
+      "[1, 4, 0, 3, 7, 1], [8]",
+      "[1, 4, 0, 3, 1], [7, 8]"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "ce metoda de cautare functioneaza pe un tablou despre care nu stim nimic?",
+    "answers": [
+      "cautarea liniara",
+      "cautarea binara",
+      "cautarea binara performanta"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "care e conditia de continuare pentru cautarea liniara?",
+    "answers": [
+      "vect[i] != x",
+      "vect[i] == x || i > N",
+      "i < N",
+      "vect[i] != x && i < N"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "care este conditia de terminare pentru cautarea liniara?",
+    "answers": [
+      "vect[i] == x",
+      "vect[i] == x || i >= N",
+      "vect[i] != x && i > N",
+      "i >= N"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "ce returneaza cautarea liniara?",
+    "answers": [
+      "valoarea cautata",
+      "indicele valorii cautate",
+      "indicele valorii cautate daca s-a gasit valoarea, altfel N",
+      "N"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "care este numarul de etape ale cautarii liniare?",
+    "answers": [
+      "N",
+      "N - 1",
+      "n / 2",
+      "nedeterminat"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "care e diferenta dintre cautarea liniara si metoda fanionului?",
+    "answers": [
+      "face mai putine cautari",
+      "imparte tabloul in 2 subtablouri",
+      "adauga elementul cautat la finalul tabloului",
+      "nici una"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "care e motivul pentru care metoda fanionului e mai performanta decat cautarea liniara?",
+    "answers": [
+      "renunta la o comparatie",
+      "compara mai putine elemente",
+      "toate",
+      "nici una"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "care este conditia de terminare pentru metoda fanionului?",
+    "answers": [
+      "vect[i + 1] != x",
+      "vect[i] == x",
+      "vect[i] != x",
+      "vect[i] != x && i < N"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "care este conditia de continuare pentru metoda fanionului?",
+    "answers": [
+      "vect[i] == x",
+      "vect[i - 1] == x",
+      "vect[i] != x",
+      "vect[i] == x || i >= N"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "ce returneaza metoda fanionului?",
+    "answers": [
+      "valoarea cautat",
+      "indicele valorii cautate sau N",
+      "N",
+      "nimic"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "pe ce tipuri de tablouri poate opera cautarea binara?",
+    "answers": [
+      "tablouri oarecare",
+      "tablouri sortate descrescator",
+      "tablouri aproape sortate",
+      "tablouri sortate crescator"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "care este conditia de continuare pentru cautarea binara?",
+    "answers": [
+      "vect[m] != x && st <= dr",
+      "vect[m] != x",
+      "vect[m] == x",
+      "st < dr"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "care este conditia de terminare pentru cautarea binara?",
+    "answers": [
+      "vect[m] == x",
+      "vect[m] != x",
+      "vect[m] == x || st > dr",
+      "st >= dr"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "care e complexitatrea algoritmului de cautare liniara?",
+    "answers": [
+      "O(n)",
+      "O(n^2)",
+      "O(logn)",
+      "O(nlogn)"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "ce tehnica sta la baza cautarii binare?",
+    "answers": [
+      "cautarea liniara",
+      "procesul de eliminarea",
+      "procesul de iterare",
+      "alegerea elementului de mijloc"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "cautarea binara performanta necesita un tablou sortat crescator?",
+    "answers": [
+      "da",
+      "nu"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "care este diferenta dintre cautarea binara si cautarea binara performanta?",
+    "answers": [
+      "nu este nici o diferenta",
+      "simplificarea cautarii",
+      "utilizarea recursivitatii",
+      "aleferea diferita a mijlocului"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "care este conditia de continuare pentru cautarea binara performanta?",
+    "answers": [
+      "vect[m] != x && st <= dr",
+      "vect[m] != x",
+      "vect[m] == x",
+      "st < dr"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "care este conditia de oprire pentru cautarea binara performanta?",
+    "answers": [
+      "vect[m] == x || st > dr",
+      "vect[m] == x",
+      "st >= dr",
+      "vect[m] != x"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "cum vor arata cele 2 subtablouri pentru cautarea binara?",
+    "answers": [
+      "[st, m - 1], [m + 1, dr]",
+      "[st, m - 1], [m, dr]",
+      "[st, m], [m + 1, dr]",
+      "[st, dr / 2], [dr / 2 + 1, dr]"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "cum arata calcului pozitiei de mijloc pentru cautarea prin interpolare",
+    "answers": [
+      "m = s + (x - vect[st]) / (vect[dr] - vect[st]) * (dr - st)",
+      "m = (st + dr) / 2",
+      "m = s + (x - vect[st]) / (vect[dr] + vect[st]) * (dr + st) / 2",
+      "m = st + (dr - st) / 2"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "care este complexitatea cautarii prin interpolare?",
+    "answers": [
+      "O(n)",
+      "O(nlogn)",
+      "O(n^2)",
+      "O(log(logn))"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "cand este indicat sa folosim cautarea prin interpolare?",
+    "answers": [
+      "cand tabloul are putine elemente",
+      "cand tabloul nu are prea multe elemente",
+      "cand tabloul are foarte multe elemente",
+      "oricand dorim"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  }
+]

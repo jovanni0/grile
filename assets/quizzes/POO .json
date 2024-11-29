@@ -1,0 +1,1027 @@
+[
+  {
+    "text": "Ce fel de libaj este C#?",
+    "answers": [
+      "orientat pe obiecte",
+      "structurat",
+      "functional",
+      "toate trei"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "Ce este un obiect?",
+    "answers": [
+      "o structura ce reprezinta doar date",
+      "constructie ce permite modularizarea unui program",
+      "o structura ce contine date si functionalitate",
+      "un tip de date"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "Ce reprezinta  atributele unui obiect?",
+    "answers": [
+      "datele",
+      "comportamentul",
+      "interfata publica",
+      "semnatura obiectului"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Ce defineste semnatura unei metode C#?",
+    "answers": [
+      "numele metodei",
+      "numele metodei, tipul si ordinea parametrilor",
+      "numele metodei si tipul returnat",
+      "numele metodei, tipul parametrilor si tipul returnat"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Cum sunt accesate atributele intr-un limbj OO?",
+    "answers": [
+      "direct prin citirea/scrierea camourilor",
+      "pot fi doar initializate",
+      "prin metode speciale numite Gettere si Settere",
+      "nu pot fi accesate din cauza incapsularii"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "Ce este o clasa?",
+    "answers": [
+      "o zona de memorie oentru datele unui obiect",
+      "instanierea unui obiect",
+      "sablon pentru crearea obiectelor",
+      "o constructie ce permite doar gruparea metodelor"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "Cum pot fi reprezentate vizual clasele?",
+    "answers": [
+      "cookie cutter",
+      "diagrame de clase",
+      "prin sabloane",
+      "subclase"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Ce modificator de acces ascunde datele?",
+    "answers": [
+      "private",
+      "public",
+      "setter",
+      "unshow"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Ce modificator de acces defineste interfata publica a unei clase?",
+    "answers": [
+      "constructor",
+      "private",
+      "access",
+      "public"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "Care este principalul beneficiu al POO?",
+    "answers": [
+      "incapsulare",
+      "nivel ridicat de integritate a datelor",
+      "securitate",
+      ""
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Prin ce defineste POO de programarea structurata?",
+    "answers": [
+      "date si comportament impreuna",
+      "separarea datelor de comportament",
+      "accesul la date necontrolat",
+      "date globale"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Care sunt bazele incapsularii?",
+    "answers": [
+      "insumarea datelor",
+      "data hiding",
+      "implementarea si interfata",
+      "gruparea datelor si compartimentalizarea obiectelor"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "Care din urmatoarele afirmatii NU este recomandata ca o practica buna?",
+    "answers": [
+      "restrictionarea accesului la atribute si anumite metode",
+      "sunt preferate obiecte mici",
+      "atributele nu pot dace parte din interfata",
+      "se prefera initializarea implicita"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "Care din urmatoarele afrimatii NU este adevarata pentru un constructor C#?",
+    "answers": [
+      "punt de intrare pentru o clasa",
+      "metoda ce are acelasi nume cu al clasei",
+      "returneaza obiectul creat",
+      "apelat automat la crearea unui obiect"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "Ce este mostenirea in programarea orientata pe obiecte?",
+    "answers": [
+      "permite unei clase sa dobandeasca atributele si comportamentul alteia",
+      "permite ascunderea detaliilor interne ale unui obiect",
+      "permite crearea de metode multiple cu parametrii diferiti",
+      "permite combinarea mau multor clase intr-una singura"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Cum se numeste clasa mostenita?",
+    "answers": [
+      "subclasa",
+      "parinte",
+      "baza",
+      "supraclasa"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Ce este polimorfismul in programarea orientata pe obiecte?",
+    "answers": [
+      "capacitatea de a ascunde detaliile interne ale unui obiect",
+      "capacitatea de a crea o noua clasa dintr-o clasa existenta",
+      "capacitatea unei variabile de a lua mai multe forme",
+      "capacitatea de a combina mai multe clase intr-una singura"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "Care din urmatoarele este un exemplu de polimorfism?",
+    "answers": [
+      "supraincarcarea metodelor (method overloading)",
+      "suprascierea metodelor (method overriding)",
+      "atat 1 cat si 2",
+      "nici una din cele de mai sus"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "Ce este compozitia in programarea orientete pe obiecte?",
+    "answers": [
+      "o clasa dobandeste proprietatile alteia",
+      "principiu de design in care o clasa contine o referinta",
+      "ascunde detaliile interne ale unui obiect",
+      "crearea de metode multiple cu parametrii diferiti"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Care din urmatoarele descrie cel mai bine compozitia?",
+    "answers": [
+      "are o (has a)",
+      "este o (is a)",
+      "foloseste o (uses a)",
+      "mosteneste o (inherits a )"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Ce este important pentru o gandire OO?",
+    "answers": [
+      "gandirea concreta",
+      "interfata cat mai cuprinzatoare",
+      "combinarea interfetei cu implementarea",
+      "gandirea abstracta"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "Ce trebuie sa stie utilizatorul unei clase reprezinta:",
+    "answers": [
+      "implementarea",
+      "interfata"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Schimbarea interfetei genereaza modificari semnificative utilizatorului?",
+    "answers": [
+      "da",
+      "nu"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Implementarea este...",
+    "answers": [
+      "esentiala pentru apelarea comportamentului",
+      "limitata de ce are nevoie utilizatorul",
+      "ascunsa utilizatorului",
+      "reprezentata doar de atribute"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "Care interfata este mai utila pentru a reprezenta un taxi?",
+    "answers": [
+      "de tip navigatie (stanga, dreapta, etc)",
+      "specificarea destinatiei"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Ce intelegem prin: interfata si implementarea unei clase trebuie separate?",
+    "answers": [
+      "interfata si implementarea se pun in fisiere diferite",
+      "modificarea interfetei nu trebuie sa afecteze implementarea",
+      "modificarea implementarii u trebuie sa afecteze interfata",
+      "interfata si implementarea nu pot fi separate"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "Care din urmatoarele metode fac parte din interfata carnetului de note al unui student?",
+    "answers": [
+      "listare note finale",
+      "calculare nota finala la disciplina",
+      "schimbare nume student",
+      "calculare medie finala pentru un an"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Care din urmatoarele atribute fac parte din implementarea carnetului de note pentru un student?",
+    "answers": [
+      "nr matricol student",
+      "lista note disciplina",
+      "medie anuala",
+      "toate",
+      "nici una"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "Pentru carnetul de note al unui student ce reprezinta operatia de salvare in baza de date?",
+    "answers": [
+      "interfata",
+      "implementarea"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Ce este un constructor?",
+    "answers": [
+      "metoda ce returneaza un obiect nou",
+      "metoda apelata automat pentru initializarea unui obiect",
+      "metoda ce returneaza void",
+      "metoda care nu poate avea parametrii"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Cand este apelat un constructor?",
+    "answers": [
+      "inainte de alocarea memoriei obiectului",
+      "inainte de apelul unei metode",
+      "dupa initializarea atributelor"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "Urmatoarea clasa are constructor? ```c# internal class Student { public required string Name { get; set; } public required string RegistrationNumber { get; set; } } ```",
+    "answers": [
+      "da",
+      "nu"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Cand este apelat constructorul clasei de baza?",
+    "answers": [
+      "inainte de constructorul clasei copil",
+      "dupa constructorul clasei copil",
+      "nu este apelat",
+      "in acelasi timp cu constructorul clasei copil"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Cati constructori are clasa? ```c# public class Counter { private int count; public Counter(int initValue) { count = initValue; } } ```",
+    "answers": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "La ce ajuta supraincarcarea?",
+    "answers": [
+      "schimbarea comportamentului unei metode",
+      "schimbarea comportamentului mostenit",
+      "declararea mai multor atribute cu acelasi nume dar tip diferit",
+      "crearea unui obiect in mai multe moduri"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "Ce trebuie sa evitam atunci cand apare o eroare?",
+    "answers": [
+      "rezolvarea erorii",
+      "ignorarea erorii",
+      "terminarea programului in mod controlat",
+      "aruncarea unei exceptii"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Ce se intampla la aruncarea unei exceptii?",
+    "answers": [
+      "executia codului continua neintrerupta",
+      "se sare la primul bloc CATCH care poate trata exceptia",
+      "executia programului se opreste",
+      "se executa blocul FINALLY daca acesta exista"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "Cum trebuie logata o exceptie?",
+    "answers": [
+      "se logheaza rezultatul apelului ToString()",
+      "se logheaza mesajul",
+      "se parcurge stiva de apelare si se logheaza fiecare apel",
+      "se logheaza tipul exceptiei"
+    ],
+    "correctAnswers": []
+  },
+  {
+    "text": "Ce se intampla cu variabila `count` din a doua metoda? ```cs public class Number { int count;\npublic method1() { int count; }\npublic method2() { int count; } } ```",
+    "answers": [
+      "ascunde atributul clasei",
+      "are aceiasi valoare cu atributul clasei",
+      "are aceeasi valoare cu variabila din prima metoda",
+      "codul este invalid"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "In ce conditii rezultatul metodei student1.Equals(student2) este adevarat?",
+    "answers": [
+      "daca toate proprietatile sunt egale",
+      "daca variabilele contin aceiasi referinta",
+      "rezultatul depinde de suprascrierea metodei Equals"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "Care din urmatoarele afirmatii despre numele unei clase este adevarate?",
+    "answers": [
+      "este folosita pentru a crea o instanta",
+      "trebuie sa fie util pentru a identifica ce face clasa",
+      "trebuie sa respecte conventiile specifice limbajului",
+      "toate",
+      "nici una"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "Ce poate fi folosit pentru a clarifica functionalitatea unei clase?",
+    "answers": [
+      "atributele",
+      "comentariile",
+      "metodela private",
+      "implementarea"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Cum este reprezentata starea unui obiect in general (indiferent de limbaj)?",
+    "answers": [
+      "proprietati",
+      "atribute",
+      "metode"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Care este cuvantul cheie care marcheaza atributele clasei",
+    "answers": [
+      "static",
+      "public",
+      "private",
+      "base"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Care din urmatoarele afirmatii sunt adevarate vis-a-vis de cuvantul cheie 'const'?",
+    "answers": [
+      "initializarea la rulare",
+      "permite initializarea folosind un constructor",
+      "se poate folosi pentru atributele clasei si ale instantei",
+      "toate",
+      "nici una"
+    ],
+    "correctAnswers": [
+      4
+    ]
+  },
+  {
+    "text": "Adevarat sau fals: atributele private ale unei instante pot fi accesate dintr-o alta instanta a aceleasi clase daca are o referinta la prima instanta?",
+    "answers": [
+      "da",
+      "nu"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Ce este un constructor implicit?",
+    "answers": [
+      "orice constructor fara parametri",
+      "un constructor generat de compilator cand nu exista unul declarat",
+      "primul constructor declarat",
+      "un constructor care poate initializa atributele la valori specificate"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Ce reprezinta valoarea null?",
+    "answers": [
+      "este echivalentul valorii 0",
+      "valoarea implicita pentru orice variabila",
+      "valoarea implicita pentru o variabila de tip clasa neinitializata",
+      "reprezinta un sir de caractere gol"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "Care din urmatoarele afirmatii sunt adevarate vis-a-vis de metodele publice si cele private?",
+    "answers": [
+      "putem simplifica codul descompunand metodele private in metode publice",
+      "metodele publice sunt apelate de cele private",
+      "metodele private sunt apelate de cele publice",
+      "trebuie sa avem mai multe metode publice decat private"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "Instanta unei clase poate accesa membrii privati ai unei alte instante?",
+    "answers": [
+      "intotdeauna",
+      "doar daca sunt instan\u00c8\u203aeale aceleiasi clase",
+      "membrii privati nu pot fi accesati direct"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Cum sunt transmise instantele obiectelor catre o metoda?",
+    "answers": [
+      "se trimite ocopie a intregului obiect",
+      "se trimite doar o referinta la zona de memorie unde este obiectul",
+      "nu se poate trimite un obiect catre o metoda"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Ce reprezinta 'extension method'?",
+    "answers": [
+      "o metoda ce suprascrie o metod\u00c4\u0192 a clasei parinte",
+      "o metoda statica ce primeste ca argument instanta obiectului extins",
+      "o metoda noua in calsa copil care nu exista in clasa parinte"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Ce se urmareste in POO?",
+    "answers": [
+      "crearea a unui model al lumii reale",
+      "crearea a unui model al bazei de date",
+      "sa se foloseasca cat mai mult mostenirea"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Ce probleme apar daca interfata nu e corect restrictionata?",
+    "answers": [
+      "programul este greu de depanat",
+      "starea poate ajunge inconsistenta",
+      "clasa este greu de folosit",
+      "toate",
+      "nici una"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "Care sunt responsabilitatile unui constructor?",
+    "answers": [
+      "initializarea atributelor",
+      "gestionarea memoriei",
+      "respectarea conditiilor initiale",
+      "toate",
+      "nici una"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "Putem avea probleme de memorie in limbajele moderne (Java, C#)",
+    "answers": [
+      "da",
+      "nu"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Ce reprezinta injectarea prin constructor?",
+    "answers": [
+      "initializarea explicita a atributelor",
+      "initializarea implicita a atributelor",
+      "creearea instantelor claselor serviciu in constructor",
+      "trimiterea instantelor claselor serviciu ca parametrii in constructor"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "Cate contacte vor fi in agenda dupa executarea urmatorului cod? ```cs Public ContactBook(List<Contact> contacts) { this.contacts = contacts; }\nList<Contact> defaultContacts = List<Contact> [ new Contact { Name = 'John Doe', Phone = '1234567890', Email = 'someemail@gmail.com'} ];\nContactBook? contactBook = new ContactBook(defaultCOntacts);\ndefaultConstcts.Clear(); ```",
+    "answers": [
+      "1",
+      "2",
+      "0",
+      "nedefinit"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "Ce returneaza metoda `Find`? ```cs public IEnumerable<Contact> Find(string name) { foreach (Contact contact in contacts) { if (contact.Name is not null && contact.Name.Contains(name, StringComparason.OrdinalIgnoreCase)) { yield return contact; } } } ```",
+    "answers": [
+      "toate contactele ce contin stringul din nume",
+      "primul contact ce contine stringul din nume",
+      "ultimul contact ce contine stringul din nume",
+      "toate contactele care contin exact caracterele din nume"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Ce se poate face cand parametrii trimisi catre un constructor sunt invalizi?",
+    "answers": [
+      "se returneaza un mesaj de eroare",
+      "se returneaza",
+      "se arunca o exceptie",
+      "se returneaza un obiect null"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "Cum putem evita aruncarea de exceptii la crearea obiectelor?",
+    "answers": [
+      "nu putem, trebuie sa avem o stare initiala valida",
+      "putem folosi un constructor privat si o metoda de tip factory",
+      "folosim un parametru de tip out pentru constructor",
+      "returnam un mesaj de eroare"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Ce se intampla daca contactul NU e valid? ```cs public (bool success, string errorMessage) Add(Contact contact) { (bool success, string errorMessage) = ValidateContact(contact);\nif (success) { contacts.Add(contact); }\nreturn (success, errorMessage); }\nprivate static (bool success, string errorMessage) ValidateContact(Contact contact) { if (string.IsNullOrWhiteSpace(contact.Email)) { return (false, 'Email cannot be empty'); }\nif (string.IsNullOrWhiteSpace(contact.Name)) { return (false, 'Name cannot be empty'); }\nreturn (true, string.Empty); } ```",
+    "answers": [
+      "este adaugat in lista dar se returneaza si mesajul de eroare",
+      "contacutl NU este adaugat in lista si se returneaza un mesaj de eroare",
+      "codul nu este corect, nu putem returna doua rezultate"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Care din urmatoarele probleme pot fi cauzate de lipsa documentatiei?",
+    "answers": [
+      "folosirea gresita a clasei",
+      "duplicare de cod si efort",
+      "modificarea eronata a functionalitatii",
+      "toate",
+      "nici una"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "Care din urmatoarele afirmatii sunt adevarate vis-a-vis de scrierea de comentarii?",
+    "answers": [
+      "trebuie explicata fiecare linie de cod",
+      "imposibilitatea de a scrie comentarii clare indica o problema in cod",
+      "comantariile trebuie sa explice codul prost scris",
+      "toate",
+      "nici una"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Ce presupune proiectarea claselor pentru reutilizare?",
+    "answers": [
+      "trebuie tinut cont de locurile unde va fi folosita clasa",
+      "trebuie identificate toate scenariile in care va fi folosita clasa"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Care solutie este mai extensibila vis-a-vis de modelarea unui angajat si a unui client in acelasi program?",
+    "answers": [
+      "definirea a doua clase complet separate",
+      "definirea a doua clase care mostenesc clasa Persoana"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Cum afecteaza membrii statici extensibilitatea?",
+    "answers": [
+      "o cresc",
+      "o scad"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Cum poate fi abstractizat codul care nu este portabil?",
+    "answers": [
+      "izolare",
+      "invelire",
+      "virtualizare",
+      "interfatare"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Ce trebuie facut cand interactionam cu un serviciu extern?",
+    "answers": [
+      "apelam serviciul unde este nevoie si folosim blocul try-catch",
+      "folosim o clasa wrapper si folosim try-catch",
+      "folosim o clasa wrapper, nu este nevoie de try-catch",
+      "apelam serviciul direct, pentru simplitate nu abstractizam"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Ce ajuta la obtinerea unui cod usor de intretinut?",
+    "answers": [
+      "descompunerea unei metode in metode mai mici",
+      "separarea codului in functie de dependinte",
+      "separarea codului in clase decuplate",
+      "toate",
+      "nici una"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "Ce concepte OOP folosim pentru a modela metode de calculare a mediilor diferite in functie de disciplina?",
+    "answers": [
+      "mostenire",
+      "polimorfism",
+      "compozitie",
+      "mostenire si compositie",
+      "mostenire si polimorfism",
+      "compozitia si polimorfism"
+    ],
+    "correctAnswers": [
+      4
+    ]
+  },
+  {
+    "text": "Ce concepte OOP folosim pentru a modela o companie ce se ocupa cu vanzarea proprietatilor care pot fi terenuri, apartamente si case?",
+    "answers": [
+      "supraincarcarea",
+      "mostenirea",
+      "polimorfism",
+      "compozitie",
+      "toate",
+      "nici una"
+    ],
+    "correctAnswers": [
+      4
+    ]
+  },
+  {
+    "text": "Ce concepte OOP folosim pentru a modela adunarea valorilor de tip double, int si float in orice combinatie?",
+    "answers": [
+      "supraincarcarea",
+      "mostenirea",
+      "polimorfism",
+      "compozitie",
+      "nici una"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Cum modelam o functie unitara ce permite formatarea valorilor de tip suma in LEI?",
+    "answers": [
+      "metoda a instantei",
+      "metoda a clasei",
+      "atribut al instantei",
+      "atribut al clasei"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Cum modelam o regula de validare care verifica faptul ca suma tranzactiei bancare este mai mare ca zero?",
+    "answers": [
+      "se folosesc conditii si se returneaza un rezultat care indica succesul",
+      "se folosesc expresii conditionale si se arunca o exceptie",
+      "se foloseste supraincarcarea",
+      "se foloseste suprascrierea"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Ce presupune folosirea unei metode de dezvoltare iterativa?",
+    "answers": [
+      "proiectarea detaliata urmata de inceperea implementarii",
+      "proiectarea superficiala pentru a incepe cat mai repede implementarea",
+      "validarea ideilor la final",
+      "inceperea implementarii inainte de a finaliza proiectarea"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "Ce presupune analiza problemei?",
+    "answers": [
+      "colaborarea cu utilizatorii pentru a identifica scopul si cerintele",
+      "citirea unei car\u00c8\u203ai pentru a in\u00c8\u203aelege domeniul",
+      "documentare intensa pe Internet",
+      "se poate folosi AI-ul pentru a putea identifica nevoile utilizatorilor"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Cum trebuie s\u00c4\u0192 fie cerintele?",
+    "answers": [
+      "axate pe aspecte tehnice",
+      "trebuie analizate din punctul de vedere al programatorului",
+      "axate pe nevoile utilizatorului"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "Care din urmatoarele afirmatii sunt adevarate vis-a-vis de identificarea claselor?",
+    "answers": [
+      "clasele sunt substantivele din cerinte",
+      "clasele sunt verbele din cerinte",
+      "trebuie identificate toate la inceput"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "In care din urmatoarele scenarii se recomanda folosirea unui obiect invelitoare (wrapper)?",
+    "answers": [
+      "abstractizarea codului care nu este portabil",
+      "modificarea interfe\u00c8\u203aei si implementarii unei clase",
+      "interactiunea cu tehnologiile de tip middleware",
+      "toate",
+      "nici una"
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "text": "Care din urmatoarele afirmatii reprezinta un avantaj al mostenirii?",
+    "answers": [
+      "modificarile in clasa de baza nu necesita testarea clasei copil",
+      "refolosirea comportamentului din clasa de baza",
+      "modificarile in clasa de baza nu se propaga in clasa copil",
+      "toate",
+      "nici una"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Ce presupune testarea unitar\u00c4\u0192 a unei clase?",
+    "answers": [
+      "testarea interfetei publice izoland dependen\u00c8\u203aele",
+      "testarea metodelor private si publice",
+      "testarea clase cu tot cu dependentele pentru a valida totul cap-coada",
+      "toate",
+      "nici una"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Cum sunt organizate testele unitare care testeaza clasele unui sistem software?",
+    "answers": [
+      "se creaza o noua clasa caretesteaza mai multe clase interdependente",
+      "se creaza cate un fisier pentru fiecare metoda publica testata",
+      "se creaza cateun fisier pentru fiecare clasa testata",
+      "nu conteaza important este sa avem teste"
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "text": "Ce concept OO este folosit in testarea unitara pentru izola clasele testate de dependinte?",
+    "answers": [
+      "polimorfism",
+      "mostenire",
+      "invelire",
+      "compozitie"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Adevarat sau fals: clasa de baza poate contine comportamente care nu sunt relevante pentru toate clase copil atata timp cat nu sunt multe situatii.",
+    "answers": [
+      "adevarat",
+      "fals"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "text": "Care din urmatoarele afirmatii descriu generalizarea?",
+    "answers": [
+      "clasele din varful ierarhiei sunt mai generale",
+      "adaugarea de comportament specific in clasele copil",
+      "clasele de la baza ierarhiei sunt mai generale",
+      "toate",
+      "nici una"
+    ],
+    "correctAnswers": [
+      0
+    ]
+  },
+  {
+    "text": "Stiind c\u00c4\u0192 exista zboruri transatlantice si locale si se doreste o aplica\u00c8\u203aie care sa gestioneze doar rezervarile locale, avem nevoie de mostenire?",
+    "answers": [
+      "da",
+      "nu"
+    ],
+    "correctAnswers": [
+      1
+    ]
+  }
+]
