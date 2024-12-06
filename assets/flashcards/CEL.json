@@ -1,11 +1,26 @@
 [
     {
-        "question": "This is the first question. what do u think?",
-        "answer": "NOTHING LOL"
+        "question": "Ce este VHDL?",
+        "answer": "V – Very high speed integrate circuit\nHDL – Hardware Description Language"
     },
 
     {
-        "question": "What about now???",
-        "answer": "still nothing :)"
+        "question": "La ce este utilizat VHDL?",
+        "answer": "-- Pentru structuri numerice foarte complexe\n-- Se bazează pe funcțiuni implementate la nivel înalt"
+    },
+
+    {
+        "question": "Scrieți intrările principale, respectiv ieșirile principale ale sintezei automate (SA).",
+        "answer": "Intrări:\no Cod VHDL funcțional\no Minimizare HW / timp execuție\no Restricții fizice\no Biblioteca cip selectată\nIeșiri:\no Scheme HW\no Cod VHDL optimizat\no Rapoarte statistice\no Liste / legături / noduri"
+    },
+
+    {
+        "question": "Care sunt elementele necesare pentru a crea o entitate nouă, formată din entități gata făcute?",
+        "answer": "o Între ARCHITECTURE și BEGIN se declară ca și COMPONENT entitățile care vor fi utilizate, și semnalele care vor lega între ele componentele.\no După BEGIN se declară funcția PORT MAP care leagă componenta specificată de intrările și ieșirile noii entități, sau de SIGNAL-uri."
+    },
+
+    {
+        "question": "Ce conține lista PORT MAP?",
+        "answer": "Doar intrările sau ieșirile noii componente, sau signal-uri."
     }
 ]
