@@ -52,3 +52,12 @@ button {
 button:hover {
     background-color: #3279c0;
 }
+
+.dropdown_select {
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
+    width: 60%;
+    height: 26px;
+}
