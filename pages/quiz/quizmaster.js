@@ -8,8 +8,9 @@ $(document).ready(function () {
     localStorage.removeItem("userAnswersIndexes");
 
     const question_set_path = localStorage.getItem("question_set_path");
+    const number_of_items = parseInt(localStorage.getItem("number_or_questions")) || 10;
 
-    getQuestions('../../assets/quizzes/' + question_set_path, 3, gotQuestions);
+    getQuestions('../../assets/quizzes/' + question_set_path, number_of_items, gotQuestions);
 });
 
 
