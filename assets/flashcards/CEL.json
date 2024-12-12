@@ -1,32 +1,32 @@
 [
     {
         "question": "Ce inseamna VHDL?. De la ce vine acronimul?.",
-        "answer": "V = Very high speed integrated circuit\nHDL = Hardware Description Language"
+        "answer": "V = Very high speed integrated circuit\n\nHDL = Hardware Description Language"
     },
 
     {
         "question": "La ce este utilizat VHDL?",
-        "answer": "Pentru structuri numerice foarte complexe.\nSe bazează pe funcțiuni implementate la nivel înalt."
+        "answer": "Pentru structuri numerice foarte complexe. Se bazează pe funcțiuni implementate la nivel înalt."
     },
 
     {
         "question": "Scrieți intrările principale, respectiv ieșirile principale ale sintezei automate (SA).",
-        "answer": "Intrări:\n-- Cod VHDL funcțional\n-- Minimizare HW / timp execuție\n-- Restricții fizice\n-- Biblioteca cip selectată\nIeșiri:\n-- Scheme HW\n-- Cod VHDL optimizat\n-- Rapoarte statistice\n-- Liste / legături / noduri"
+        "answer": "Intrări:\n- Cod VHDL funcțional\n- Minimizare HW / timp execuție\n- Restricții fizice\n- Biblioteca cip selectată\n\nIeșiri:\n- Scheme HW\n- Cod VHDL optimizat\n- Rapoarte statistice\n- Liste / legături / noduri"
     },
 
     {
         "question": "Ce elemente se folosesc pentru a crea o funcție (entitate) nouă din entități (funcțiuni) implementate?",
-        "answer": "Între arhitectură și begin se declară ca și component entitățile care vor fi utilizate în noua structură.\nÎntre aceste componente se declară legături interne sub formă de `signal`-uri.\nUrmează nume componentă și `port map` care leagă componenta specificată de intrările și ieșirile noii entități\nLista `port map` conține doar intrările și ieșirile noii componente sau signal-uri."
+        "answer": "Între arhitectură și begin se declară ca și component entitățile care vor fi utilizate în noua structură.\n\nÎntre aceste componente se declară legături interne sub formă de `signal`-uri.\n\nUrmează nume componentă și `port map` care leagă componenta specificată de intrările și ieșirile noii entități\n\nLista `port map` conține doar intrările și ieșirile noii componente sau signal-uri."
     },
 
     {
         "question": "Se dau 3 circuite (2 sunt identice). Câte componente se declară și câte port map-uri?",
-        "answer": "Se declară 2 componente și 3 port map-uri."
+        "answer": "Se declară 2 componente și 3 `port map`-uri."
     },
 
     {
         "question": "Se dă entitatea E și arhitecturile A1, A2, A3, A4. Să se selecteze A3 pentru configurare (în contextul unui test bench).",
-        "answer": "configuration [nume_configuratie] for E\nfor A3\nend for;\nend nume_ales;"
+        "answer": "configuration [nume_configuratie] for E\n\nfor A3\n\nend for;\n\nend nume_ales;"
     },
 
     {
@@ -36,17 +36,17 @@
 
     {
         "question": "Care sunt proprietățile proceselor cu LS (listă de senzitivitate)?",
-        "answer": "a. Sunt concurente (se execută simultan)\nb. Se trezesc atunci când unul dintre elementele din LS schimbă starea și execută codul până la `end`\nc. Execuția corpului procesului se face secvențial"
+        "answer": "- Sunt concurente (se execută simultan)\n- Se trezesc atunci când unul dintre elementele din LS schimbă starea și execută codul până la `end`\n- Execuția corpului procesului se face secvențial"
     },
 
     {
         "question": "Care sunt prorpietățile proceselor fără LS?",
-        "answer": "a. Sunt concurente\nb. Corpul se execută secvențial\nc. Se trezesc automat, execută codul până la `end` și reiau ciclul\nd. Se pot opri pentru un anumit timp, sau infinit"
+        "answer": "- Sunt concurente\n- Corpul se execută secvențial\n- Se trezesc automat, execută codul până la `end` și reiau ciclul\n- Se pot opri pentru un anumit timp, sau infinit"
     },
 
     {
         "question": "Care sunt diferențele dintre SIGNAL și VARIABLE?",
-        "answer": "signal:\n  -- scop global (in toata arhitectura)\n  -- are delay\n  -- e declarat intre `architecture` si `begin`\nvariable:\n  -- scop local (in proces)\n  -- nu are delay\n  -- e declarat intre `process` si `begin`"
+        "answer": "signal:\n- scop global (in toata arhitectura)\n- are delay\n- e declarat intre `architecture` si `begin`\n\nvariable:\n- scop local (in proces)\n- nu are delay\n- e declarat intre `process` si `begin`"
     },
 
     {
@@ -56,12 +56,12 @@
 
     {
         "question": "Care sunt diferențele dintre IF și CASE?",
-        "answer": "IF:\n  -- are prioritati\n  -- 3 nivele logice (lent)\nCASE:\n  -- nu are prioritati\n  -- 1 nivel logic (rapid)"
+        "answer": "IF:\n- are prioritati\n- 3 nivele logice (este lent)\n\nCASE:\n- nu are prioritati\n- 1 nivel logic (este rapid)"
     },
 
     {
         "question": "Enunțați 3 reguli pentru sinteza circuitelor combinaționale cu procese.",
-        "answer": "a. În lista de senzitivitate a procesului (LS) trebuie să apară toate intrările.\nb. Ieșirile depind doar de intrări, fără reacții.\nc. Pentru instructiunile `IF` si `CASE`, toate ramurile trebuie să fie atribuite."
+        "answer": "a. În lista de senzitivitate a procesului (LS) trebuie să apară toate intrările.\n\nb. Ieșirile depind doar de intrări, fără reacții.\n\nc. Pentru instructiunile `IF` si `CASE`, toate ramurile trebuie să fie atribuite."
     },
 
     {
@@ -70,7 +70,7 @@
     },
 
     {
-        "question": "În ce condiții se iasă din structura LOOP?",
+        "question": "În ce condiții se iese din structura LOOP?",
         "answer": "Dacă în corp apare `exit` sau `exit when [condition]`."
     },
 
@@ -86,7 +86,7 @@
 
     {
         "question": "Scrieți arhitectura pentru un STATE DRIVER.",
-        "answer": "```vhd\nsignal BUSS: STD_LOGIC;\nprocess(ENB1, D1)\nbegin\n    if ENB1 = '1' then\n        BUSS <= D1;\n    else\n        BUSS <= 'Z';\n    end if;\nend process;\n```"
+        "answer": "```vhd\n\nsignal BUSS: STD_LOGIC;\n\nprocess(ENB1, D1)\n\nbegin\n\n    if ENB1 = '1' then\n\n        BUSS <= D1;\n\n    else\n\n        BUSS <= 'Z';\n\n    end if;\n\nend process;\n\n```"
     },
 
     {
@@ -96,7 +96,7 @@
 
     {
         "question": "Care sunt regulile funcției RESOLVED?",
-        "answer": "Dacă semnalele de conflict sunt identice, iese același semnal.\nDacă intrările sunt STRONG și WEAK, ieșirea va fi STRONG (apare conflict).\nDacă semnalele sunt STRONG, ieșirea este X, iar dacă sunt WEAK, ieșirea este W."
+        "answer": "Dacă semnalele de conflict sunt identice, iese același semnal.\n\nDacă intrările sunt STRONG și WEAK, ieșirea va fi STRONG (apare conflict).\n\nDacă semnalele sunt STRONG, ieșirea este X, iar dacă sunt WEAK, ieșirea este W."
     },
 
     {
@@ -116,17 +116,17 @@
 
     {
         "question": "Care sunt metodele prin care putem detecta frontul crescător/descrescător al clock-ului?.",
-        "answer": "Metoda 1:\n-- `clock'EVENT and clock = '1'` = front crescător\n-- `clock'EVENT and clock = '0'` = front descresc.\nMetoda 2:\n-- `rising_edge(clock)` = front crescator\n-- `falling_edge(clock)` = front descrescator"
+        "answer": "Metoda 1:\n- `clock'EVENT and clock = '1'` = front crescător\n- `clock'EVENT and clock = '0'` = front descresc.\n\nMetoda 2:\n- `rising_edge(clock)` = front crescator\n- `falling_edge(clock)` = front descrescator"
     },
 
     {
-        "question": "Care este diferența dintre `clock’EVENT` si `rising_edge(clock)`/`falling_edge(clock)`?.",
-        "answer": "a. `clock’EVENT` detectează trecerea de la orice valoare la 1 sau 0\nb. `rising_edge(clock)` detectează trecerea din 0/L în 1/H si `falling_edge(clock)` detectează trecerea din 1/H în 0/L"
+        "question": "Care este diferența dintre `clock’EVENT` si `rising_edge(clock)` / `falling_edge(clock)`?.",
+        "answer": "- `clock’EVENT` detectează trecerea de la orice valoare la 1/0\n\n- `rising_edge(clock)` detectează trecerea din 0/L în 1/H\n- `falling_edge(clock)` detectează trecerea din 1/H în 0/L"
     },
 
     {
         "question": "Care este modalitatea de detectare a frontului urcător / coborâtor când utilizăm procese fără LS?",
-        "answer": "Metoda 1:\n-- wait until CLOCK = ’1’; - front urcător\n-- wait until CLOCK = ’0’; - front coborâtor\nMetoda 2:\n-- wait until RISING_EDGE(CLOCK);\n-- wait until FALLING_EDGE(CLOCK)"
+        "answer": "Metoda 1:\n- `wait until CLOCK = '1';` = front urcător\n- `wait until CLOCK = '0';` = front coborâtor\n\nMetoda 2:\n- `wait until RISING_EDGE(CLOCK);`\n- `wait until FALLING_EDGE(CLOCK);`"
     },
 
     {
@@ -136,11 +136,64 @@
 
     {
         "question": "Când implementează SA bistabile pentru `signal`?",
-        "answer": "Cand unui `signal` i se atribuie o valoare în cadrul unui proces."
+        "answer": "Cand unui `signal` i se atribuie o valoare în interiorul unui proces."
     },
 
     {
         "question": "Care sunt condițiile ca un automat cu stări finite să treacă de la starea A la starea B?",
         "answer": "- Starea A să fie activă\n- Condiția de trecere A -> B să fie adevarata\n- Să avem frontul ales al CLOCK-ului (crescător/descrescător)"
+    },
+
+
+
+
+    {
+        "question": "Care sunt valorile din STD_ULOGIC și ce semnifică?.",
+        "answer": "U, X, 0, 1, Z, W, L, H, -\n- X, W = necunoscut\n- U = neinitializat\n- 0, L = zero logic\n- 1, H = unu logic\n- Z = înaltă impedanță\n- '-' = nu contază"
+    },
+
+    {
+        "question": "De la ce vine acronimul FPGA?.",
+        "answer": "FPGA = Field Programable Gate Array."
+    },
+
+    {
+        "question": "De la ce vine acronimul ASIC?.",
+        "answer": "ASIC = Application Specific Integrated Circuit."
+    },
+
+    {
+        "question": "Ce face SA cand intalneste un 'nested if'?.",
+        "answer": "Implementeaza o serie de multiplexoare."
+    },
+
+    {
+        "question": "Cu ce componente se genereaza semnale oblice?.",
+        "answer": "Cu un numarator."
+    },
+
+    {
+        "question": "Care e diferenta intre cele doua declarari de vector: `0 to 3` si `3 downto 0`?.",
+        "answer": "- `0 to 3` pune LSB in capatul din stanga si MSB incapatul din dreapta\n- `3 downto 0` pune LSB in capatul din dreapta si MSB in capatul din stanga"
+    },
+
+    {
+        "question": "Implementati in VHDL arhitectura unui latch transparent cu procese.",
+        "answer": "```vhd\nprocess(enable, d)\nbegin\nif enable = '1' then\nq <= d;\nend if\nend process;\n```"
+    },
+
+    {
+        "question": "Cum recunoaste SA codul aferent unui test bench?. Acest cod este sintetizabil?.",
+        "answer": "SA recunoaste codul ca test bench fiindca declararea de entitate este goala.\n\nTest bench-ul nu este sintetizabil."
+    },
+
+    {
+        "question": "Descrieți semnificația elementelor: *library*, *entity*, *architecture*.",
+        "answer": "*library* = adauga o biblioteca in proiect\n*entity* = defineste intrarile și ieșirile componentei\n*architecture* = descrie compontamentul componentei"
+    },
+
+    {
+        "question": "Implementati in VHDL arhitectura unui bistabil D sincron pe front ridicator, cu reset asincron prioritar.",
+        "answer": "```vhd\nprocess(clk, reset)\nbegin\nif reset = '1' then\nq <= '0';\nelsif rising_edge(clk) then\nq <= din;\nend if;\nend process;\n```"
     }
 ]
