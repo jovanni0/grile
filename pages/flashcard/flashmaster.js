@@ -4,10 +4,10 @@ $(document).ready(function () {
     localStorage.removeItem("flashcards_data");
     localStorage.removeItem("flashcards_question_index");
 
-    // const question_set_path = localStorage.getItem("question_set_path");
+    const flashcard_question_set_path = localStorage.getItem("flashcard_question_set_path");
     const number_of_items = parseInt(localStorage.getItem("number_or_questions")) || 10;
 
-    getQuestions('../../assets/flashcards/' + "CEL.json", number_of_items, gotQuestions);
+    getQuestions('../../assets/flashcards/' + flashcard_question_set_path, number_of_items, gotQuestions);
 });
 
 
