@@ -4,8 +4,10 @@ function getQuestions(path, number_of_quizzes, callback) {
         .then(response => response.json())
         .then(data => {
             questionsOrder = shuffle(data);
-            questionsOrder = questionsOrder.slice(0, number_of_quizzes);
 
+            if (!(number_of_quizzes === "all")) {
+                questionsOrder = questionsOrder.slice(0, number_of_quizzes);
+            }
             callback(questionsOrder); // sent the questions back
         })
         .catch(error => console.error('Error fetching questions:', error));

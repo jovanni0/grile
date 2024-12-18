@@ -5,9 +5,15 @@ $(document).ready(function () {
     localStorage.removeItem("flashcards_question_index");
 
     const flashcard_question_set_path = localStorage.getItem("flashcard_question_set_path");
-    const number_of_items = parseInt(localStorage.getItem("number_or_questions")) || 10;
+    const flashcardTimerIsOn = localStorage.getItem("flashcard_timer_is_on") || "false";
+    const flashcardTimeSpan = parseInt(localStorage.getItem("flashcard_time_span")) || 15;
+    const flashcardShowAll = localStorage.getItem("flashcard_show_all") || "false";
+    const flashcardNumber = parseInt(localStorage.getItem("flashcard_number")) || 20;
 
-    getQuestions('../../assets/flashcards/' + flashcard_question_set_path, number_of_items, gotQuestions);
+    if (flashcardShowAll === "true")
+        getQuestions('../../assets/flashcards/' + flashcard_question_set_path, "all", gotQuestions);
+    else
+        getQuestions('../../assets/flashcards/' + flashcard_question_set_path, flashcardNumber, gotQuestions);
 });
 
 

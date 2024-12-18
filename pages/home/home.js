@@ -59,8 +59,14 @@ function startQuizz() {
     const dropdown = document.getElementById("quizz_selector");
     localStorage.setItem("question_set_path", dropdown.value);
 
-    console.log(dropdown.options[dropdown.selectedIndex].text);
-    console.log(dropdown.value);
+    const timerCheckbox = document.getElementById('quizzTimerCheckbox');
+    const timerInput = document.getElementById('quizzTimerInput');
+    const showAllCheckbox = document.getElementById('quizzShowAllCheckbox');
+    const numberInput = document.getElementById('quizzNumberInput');
+    localStorage.setItem("quiz_timer_is_on", timerCheckbox.checked);
+    localStorage.setItem("quiz_time_span", timerInput.value);
+    localStorage.setItem("quiz_show_all", showAllCheckbox.checked);
+    localStorage.setItem("quiz_number", numberInput.value);
 
     window.location.href = "../quiz/quizmaster.html";
 }
@@ -70,8 +76,14 @@ function startFlashcard() {
     const dropdown = document.getElementById("flashcard_selector");
     localStorage.setItem("flashcard_question_set_path", dropdown.value);
 
-    console.log(dropdown.options[dropdown.selectedIndex].text);
-    console.log(dropdown.value);
+    const timerCheckbox = document.getElementById('flashcardTimerCheckbox');
+    const timerInput = document.getElementById('flashcardTimerInput');
+    const showAllCheckbox = document.getElementById('flashcardShowAllCheckbox');
+    const numberInput = document.getElementById('flashcardNumberInput');
+    localStorage.setItem("flashcard_timer_is_on", timerCheckbox.checked);
+    localStorage.setItem("flashcard_time_span", timerInput.value);
+    localStorage.setItem("flashcard_show_all", showAllCheckbox.checked);
+    localStorage.setItem("flashcard_number", numberInput.value);
 
     window.location.href = "../flashcard/flashmaster.html";
 }
